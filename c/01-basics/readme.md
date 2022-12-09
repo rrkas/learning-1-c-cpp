@@ -1,0 +1,3 @@
+# C basics
+
+- printf
