@@ -1,7 +1,9 @@
 #include<stdio.h>
 
 void main() {
-    printf("Hello World!");
+    printf("%c\n", 'a');
+    printf("%d\n", 5);
+    printf("%i\n", 4);
 }
 
 /*
@@ -9,7 +11,7 @@ void main() {
 Running code:
 
 1. Compiling
-$ gcc 1_basic_printf.c
+$ gcc <filename>.c
 
 2. Executing
 $ ./a.out
