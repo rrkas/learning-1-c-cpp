@@ -4,7 +4,7 @@
 
 | Component | Description |
 | - | - |
-| `void main()` | Driver function<br>Any C program starts from here and ends at here |
+| `void main()` <br> or <br> `int main()` <br> or <br> `int main(int argc, char const *argv[])` | Driver function<br>Any C program starts from here and ends at here |
 | Preprocessor Directives | It is a pre-process of execution of a program |
 | Keyword | These are reserved words in C and used for specific purposes |
 | Datatype | the type of values allowed and valid operations allowed on those values |
