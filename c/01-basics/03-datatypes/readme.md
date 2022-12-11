@@ -29,15 +29,15 @@ It defines the values that can be used in the language and the operations that c
 
 
 ## Basic Datatype
-These are the basic/ core datatypes of C
+These are the basic/ core datatypes of C:
 
 <table>
-<tr><th>datatype</th><th>variations</th><th>format specifier</th></tr>
+<tr><th>datatype</th><th>acceptable values</th><th>variations</th><th>format specifier</th></tr>
 
-<tr><td rowspan="2">char</td><td>char</td><td>%c</td></tr>
+<tr><td rowspan="2">char</td><td rowspan="2">ASCII character</td><td>char</td><td>%c</td></tr>
 <tr><td>unsigned char</td><td>%c</td></tr>
 
-<tr><td rowspan="8">int</td><td>int</td><td>%d or %i</td></tr>
+<tr><td rowspan="8">int</td><td rowspan="8">positive and negative<br> whole numbers<br> (without decimal)</td><td>int</td><td>%d or %i</td></tr>
 <tr><td>unsigned int</td><td>%u</td></tr>
 <tr><td>short</td><td>%hi</td></tr>
 <tr><td>unsigned short</td><td>%hu</td></tr>
@@ -47,13 +47,15 @@ These are the basic/ core datatypes of C
 <tr><td>unsigned long long <br> unsigned long long int</td><td>%llu</td></tr>
 
 
-<tr><td rowspan="2">float</td><td>float</td><td>%f</td></tr>
+<tr><td rowspan="2">float</td><td rowspan="2">real number values<br> or<br> decimal points</td><td>float</td><td>%f</td></tr>
 <tr><td>float (scientific)</td><td>%e or %E or %g or %G</td></tr>
 
-<tr><td rowspan="3">double</td><td>double</td><td>%lf</td></tr>
+<tr><td rowspan="3">double</td><td rowspan="3">range exceeds the<br> numeric values that<br> do not come under<br> either float or int</td><td>double</td><td>%lf</td></tr>
 <tr><td>double (scientific)</td><td>%e or %E or %g or %G</td></tr>
 <tr><td>long double</td><td>%Lf</td></tr>
 
 <table>
+
+
 
 
