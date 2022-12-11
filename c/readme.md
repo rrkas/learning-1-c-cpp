@@ -3,6 +3,10 @@
 ## Chapters
 ### Basics
 - first program
+- keywords
+- datatypes
+- variables
+- operators
 - printf
 
 
