@@ -37,3 +37,9 @@ These are reserved words in C and used for specific purposes
 | void | nothing or no value |
 | volatile | used for creating volatile objects.<br> A volatile object can be modified in an unspecified way by the hardware |
 | while | used to declare `do...while` and `while` loops |
+
+
+**Note:**   
+- compiler vendors (like `Microsoft`, `Borland`, etc.) provide their own keywords apart from the ones mentioned above. 
+- These include extended keywords like `near`, `far`, `asm`, etc. 
+- Though it has been suggested by the ANSI committee that every such compiler specific keyword should be preceded by two underscores (as in `__asm` ), not every vendor follows this rule.
