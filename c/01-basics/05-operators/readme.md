@@ -18,6 +18,7 @@ These are symbols that are used to perform specific operations.
 | Logical | used for logical operations | `&&`, `\|\|` ,`!` |
 | Bitwise | used for bit-wise operations | `&`, `\|`, `~`, `^`, `>>`, `<<` |
 | sizeof | used for getting size of a variable or datatype | `sizeof` |
+| Conditional | used for condition | `?:` |
 
 ## Precedence and Associativity of operators
 
