@@ -2,13 +2,13 @@
 
 ## Chapters
 ### Basics
-- first program
-- keywords
-- datatypes
-- variables
-- operators
-- printf
-- scanf
+1. first program
+1. keywords
+1. datatypes
+1. variables
+1. operators
+1. printf
+1. scanf
 
 
 ## Running code:

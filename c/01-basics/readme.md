@@ -11,3 +11,12 @@ the basic element recognized by the compiler is the "token".
 | `Variables` or `Identifiers` | It is a named memory location to store value of a particular datatype |
 | `Operators` | These are symbols used for performing specific operations |
 | `Punctuators` | have various uses, from organizing program text to defining the tasks that the compiler or the compiled program carries out |
+
+## Chapters
+1. first program
+1. keywords
+1. datatypes
+1. variables
+1. operators
+1. printf
+1. scanf

@@ -1,12 +1,11 @@
 #include <stdio.h>
 
-int main(int argc, char const *argv[])
-{
-    float r;
-    scanf("%f", &r);
+int main(int argc, char const *argv[]) {
+  float r;
+  scanf("%f", &r);
 
-    printf("%f\n", (22.0 / 7) * r * r);
-    return 0;
+  printf("%f\n", (22.0 / 7) * r * r);
+  return 0;
 }
 
 /*

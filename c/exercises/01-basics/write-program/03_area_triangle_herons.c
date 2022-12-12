@@ -1,18 +1,17 @@
-#include <stdio.h>
 #include <math.h>
+#include <stdio.h>
 
-int main(int argc, char const *argv[])
-{
-    float a, b, c, s, area;
-    scanf("%f", &a);
-    scanf("%f", &b);
-    scanf("%f", &c);
+int main(int argc, char const *argv[]) {
+  float a, b, c, s, area;
+  scanf("%f", &a);
+  scanf("%f", &b);
+  scanf("%f", &c);
 
-    s = (a + b + c) / 2;
-    area = sqrtf(s * (s - a) * (s - b) * (s - c));
+  s = (a + b + c) / 2;
+  area = sqrtf(s * (s - a) * (s - b) * (s - c));
 
-    printf("%f\n", area);
-    return 0;
+  printf("%f\n", area);
+  return 0;
 }
 
 /*

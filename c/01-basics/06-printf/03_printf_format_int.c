@@ -1,40 +1,33 @@
 #include <stdio.h>
 #include <string.h>
 
-int main(int argc, char const *argv[])
-{
-    int data = 20;
-    int length_i = 0, flag_i = 0, width = 1;
-    char format[20];
-    char lenghts[] = "hlL";
-    char flags[] = "-+ 0";
-    int len_lengths = strlen(lenghts), len_flags = strlen(flags);
+int main(int argc, char const *argv[]) {
+  int data = 20;
+  int length_i = 0, flag_i = 0, width = 1;
+  char format[20];
+  char lenghts[] = "hlL";
+  char flags[] = "-+ 0";
+  int len_lengths = strlen(lenghts), len_flags = strlen(flags);
 
-    for (width = 1; width < 10; width++)
-    {
-        for (flag_i = 0; flag_i < len_flags; flag_i++)
-        {
-            for (length_i = -1; length_i < len_lengths; length_i++)
-            {
-                if (length_i < 0)
-                {
-                    sprintf(format, "%%%c%dd", flags[flag_i], width);
-                    printf("%s \t : ", format);
-                    printf(format, data);
-                    printf("\n");
-                }
-                else
-                {
-                    sprintf(format, "%%%c%d%cd", flags[flag_i], width, lenghts[length_i]);
-                    printf("%s \t : ", format);
-                    printf(format, data);
-                    printf("\n");
-                }
-            }
+  for (width = 1; width < 10; width++) {
+    for (flag_i = 0; flag_i < len_flags; flag_i++) {
+      for (length_i = -1; length_i < len_lengths; length_i++) {
+        if (length_i < 0) {
+          sprintf(format, "%%%c%dd", flags[flag_i], width);
+          printf("%s \t : ", format);
+          printf(format, data);
+          printf("\n");
+        } else {
+          sprintf(format, "%%%c%d%cd", flags[flag_i], width, lenghts[length_i]);
+          printf("%s \t : ", format);
+          printf(format, data);
+          printf("\n");
         }
+      }
     }
+  }
 
-    return 0;
+  return 0;
 }
 
 /*

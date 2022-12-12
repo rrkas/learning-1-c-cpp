@@ -1,43 +1,36 @@
 #include <stdio.h>
 #include <string.h>
 
-int main(int argc, char const *argv[])
-{
-    long double data = 2.365;
-    int length_i = 0, flag_i = 0, width = 1, precision = 0;
-    char format[20];
-    char lenghts[] = "hlL";
-    char flags[] = "-+ 0";
-    int len_lengths = strlen(lenghts), len_flags = strlen(flags);
+int main(int argc, char const *argv[]) {
+  long double data = 2.365;
+  int length_i = 0, flag_i = 0, width = 1, precision = 0;
+  char format[20];
+  char lenghts[] = "hlL";
+  char flags[] = "-+ 0";
+  int len_lengths = strlen(lenghts), len_flags = strlen(flags);
 
-    for (width = 1; width < 10; width++)
-    {
-        for (precision = 0; precision < 10; precision++)
-        {
-            for (flag_i = 0; flag_i < len_flags; flag_i++)
-            {
-                for (length_i = -1; length_i < len_lengths; length_i++)
-                {
-                    if (length_i < 0)
-                    {
-                        sprintf(format, "%%%c%d.%df", flags[flag_i], width, precision);
-                        printf("%s \t\t : ", format);
-                        printf(format, data);
-                        printf("\n");
-                    }
-                    else
-                    {
-                        sprintf(format, "%%%c%d.%d%cf", flags[flag_i], width, precision, lenghts[length_i]);
-                        printf("%s \t : ", format);
-                        printf(format, data);
-                        printf("\n");
-                    }
-                }
-            }
+  for (width = 1; width < 10; width++) {
+    for (precision = 0; precision < 10; precision++) {
+      for (flag_i = 0; flag_i < len_flags; flag_i++) {
+        for (length_i = -1; length_i < len_lengths; length_i++) {
+          if (length_i < 0) {
+            sprintf(format, "%%%c%d.%df", flags[flag_i], width, precision);
+            printf("%s \t\t : ", format);
+            printf(format, data);
+            printf("\n");
+          } else {
+            sprintf(format, "%%%c%d.%d%cf", flags[flag_i], width, precision,
+                    lenghts[length_i]);
+            printf("%s \t : ", format);
+            printf(format, data);
+            printf("\n");
+          }
         }
+      }
     }
+  }
 
-    return 0;
+  return 0;
 }
 
 /*

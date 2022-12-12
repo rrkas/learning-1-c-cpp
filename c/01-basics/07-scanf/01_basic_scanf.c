@@ -1,30 +1,29 @@
 #include <stdio.h>
-int main(int argc, char const *argv[])
-{
-    char ch;
-    int i;
-    float f;
-    double d;
-    long double ld;
+int main(int argc, char const *argv[]) {
+  char ch;
+  int i;
+  float f;
+  double d;
+  long double ld;
 
-    printf("char? ");
-    scanf("%c", &ch);
+  printf("char? ");
+  scanf("%c", &ch);
 
-    printf("int? ");
-    scanf("%d", &i);
+  printf("int? ");
+  scanf("%d", &i);
 
-    printf("float? ");
-    scanf("%f", &f);
+  printf("float? ");
+  scanf("%f", &f);
 
-    printf("double? ");
-    scanf("%lf", &d);
+  printf("double? ");
+  scanf("%lf", &d);
 
-    printf("long double? ");
-    scanf("%Lf", &ld);
+  printf("long double? ");
+  scanf("%Lf", &ld);
 
-    printf("%c %d %f %lf %Lf\n", ch, i, f, d, ld);
+  printf("%c %d %f %lf %Lf\n", ch, i, f, d, ld);
 
-    return 0;
+  return 0;
 }
 
 /*
