@@ -1,5 +1,7 @@
 # `printf`
 
+prints a formatted string on the screen
+
 ## signature
 `int printf(const char *format, ...)`
 
@@ -51,3 +53,6 @@
 | `l` | The argument is interpreted as a long int or unsigned long int for integer specifiers (`i`, `d`, `o`, `u`, `x` and `X`), and as a wide character or wide character string for specifiers `c` and `s`. |
 | `L` | The argument is interpreted as a long double (only applies to floating point specifiers: `e`, `E`, `f`, `g` and `G`). |
 
+Returns:
+- If successful, the total number of characters written is returned. 
+- On failure, a negative number is returned.

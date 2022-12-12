@@ -8,6 +8,7 @@
 - variables
 - operators
 - printf
+- scanf
 
 
 ## Running code:
