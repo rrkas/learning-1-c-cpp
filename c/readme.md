@@ -7,8 +7,17 @@
 1. datatypes
 1. variables
 1. operators
-1. printf
-1. scanf
+1. `printf`
+1. `scanf`
+
+### Conditional/ Branch/ Decision control statements
+1. `if`
+1. `if - else`
+1. `if - else if - else`
+1. `if - else if - else if - ... - else` (if-else ladder)
+1. nested `if` statement
+1. `switch` statement
+1. ternary/ conditional operator (`?:`)
 
 
 ## Running code:
