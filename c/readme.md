@@ -19,6 +19,22 @@
 1. `switch` statement
 1. ternary/ conditional operator (`?:`)
 
+## Loops
+1. `while` loop
+1. `break` and `continue` statements
+1. `for` loop
+1. `do`-`while` loop
+1. nested loop
+
+## Functions
+1. Passing Values between Functions
+1. Scope Rule of Functions
+1. Call by Value and Call by Reference
+1. Recursion
+1. Varying arguments
+
+## Pointers
+1. intro
 
 ## Running code:
 ### simple
