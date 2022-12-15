@@ -57,5 +57,40 @@ These are the basic/ core datatypes of C:
 <table>
 
 
+## Storage classes
+- To fully define a variable one needs to mention not only its ‘**type**’ but also its ‘**storage class**'. Not only do all variables have a data type, they also have a ‘**storage class**’.
+- If we don’t specify the storage class of a variable in its declaration, the compiler will assume a storage class depending on the **context** in which the variable is used. Thus, variables have certain default storage classes.
 
+a variable’s storage class tells us:
+- **Where** the variable would be stored.
+- What will be the **initial value** of the variable, if initial value is not specifically assigned.(i.e. the default initial value).
+- What is the **scope** of the variable; i.e. in which functions the value of the variable would be available.
+-  What is the **life** of the variable; i.e. how long would the variable exist.
+
+There are four storage classes in C:
+| storage class | Storage | Default initial value | Scope | Life |
+| - | - | - | - | - |
+| Automatic (`auto`) | Memory | garbage value | block | block |
+| Register (`register`) | CPU registers | Garbage value | block | block |
+| Static (`static`) | Memory | zero (`0`) | block | program <br> <br> Value of the variable persists between different function calls.  |
+| External (`extern`) | Memory | zero (`0`) | global | program |
+
+We can make a few ground rules for usage of different storage classes in different programming situations with a view to:
+1.  economise the memory space consumed by the variables
+1.  improve the speed of execution of the program
+
+The rules are as under:
+- Use `static` storage class only if you want the value of a variable to persist between different function calls.
+
+- Use `register` storage class for only those variables that are being used very often in a program.  
+Reason is, there are very few CPU registers at our disposal and many of them might be busy doing something else.  
+Make careful utilization of the scarce resources.   
+A typical application of register storage class is loop counters, which get used a number of times in a program.
+
+- Use `extern` storage class for only those variables that are being used by almost all the functions in the program.  
+This would avoid unnecessary passing of these variables as arguments when making a function call.  
+Declaring all the variables as extern would amount to a lot of wastage of memory space because these variables would remain active throughout the life of the program.
+
+- If you don’t have any of the express needs mentioned above, then use the `auto` storage class.  
+In fact most of the times we end up using the auto variables, because often it so happens that once we have used the variables in a function we don’t mind losing them.
 
