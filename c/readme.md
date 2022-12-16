@@ -9,6 +9,7 @@
 1. operators
 1. `printf`
 1. `scanf`
+1. preprocessors
 
 ### Conditional/ Branch/ Decision control statements
 1. `if`
@@ -76,3 +77,5 @@ Note:
 - `-lm` is optional
 - If `undefined reference to '...'` error occurs even after including header file, use `-lm` flag in command
 
+## Execution of c program
+`c source code (.c)` --( **Preprocessor** )--> `expanded source code (.i)` --( **Compiler** )--> `object code (.obj)` --( **Linker** )--> `executable code (.exe)`

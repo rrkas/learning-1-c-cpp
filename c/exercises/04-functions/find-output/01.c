@@ -10,7 +10,7 @@ int check(int ch) {
 void main() {
   int i = 45, c;
   c = check(i * 1000);
-  printf("\n%d", c);
+  printf("%d\n", c);
 }
 
 /*

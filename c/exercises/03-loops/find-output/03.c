@@ -6,7 +6,7 @@ int main() {
       break;
     else
       j += i;
-    printf("\n%d", j);
+    printf("%d\n", j);
     i += j;
   }
 }
