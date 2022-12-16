@@ -20,30 +20,40 @@
 1. `switch` statement
 1. ternary/ conditional operator (`?:`)
 
-## Loops
+### Loops
 1. `while` loop
 1. `break` and `continue` statements
 1. `for` loop
 1. `do`-`while` loop
 1. nested loop
 
-## Functions
+### Functions
 1. Passing Values between Functions
 1. Scope Rule of Functions
 1. Call by Value and Call by Reference
 1. Recursion
 1. Varying arguments
 
-## Pointers
+### Pointers
 1. intro
 1. pointer arithmetic
 
-## Array
+### Array
 1. Intro to Arrays
 1. Passing Array Elements to a Function
 1. Pointers and Arrays
 1. Two Dimensional Arrays
 1. Array of Pointers
+
+### Strings
+1. intro
+1. print string
+1. input string
+1. Pointers and Strings
+1. Standard Library
+1. `const` strings
+1. 2D array of strings
+1. Array of Pointers to Strings
 
 ## Running code:
 ### simple
