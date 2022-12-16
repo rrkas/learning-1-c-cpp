@@ -36,6 +36,14 @@
 
 ## Pointers
 1. intro
+1. pointer arithmetic
+
+## Array
+1. Intro to Arrays
+1. Passing Array Elements to a Function
+1. Pointers and Arrays
+1. Two Dimensional Arrays
+1. Array of Pointers
 
 ## Running code:
 ### simple
