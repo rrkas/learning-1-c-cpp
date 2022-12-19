@@ -55,6 +55,17 @@
 1. 2D array of strings
 1. Array of Pointers to Strings
 
+### Structures (`struct`)
+1. intro
+1. array of structures
+1. Nested structures
+1. Passing structure to function
+1. Pointer to structure
+1. Holes in memory allocation & solution
+
+
+
+
 ## Running code:
 ### simple
 
