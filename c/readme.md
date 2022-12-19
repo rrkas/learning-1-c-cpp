@@ -10,6 +10,7 @@
 1. `printf`
 1. `scanf`
 1. preprocessors
+1. Console Input/Output functions
 
 ### Conditional/ Branch/ Decision control statements
 1. `if`
