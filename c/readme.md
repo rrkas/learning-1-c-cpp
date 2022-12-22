@@ -64,7 +64,18 @@
 1. Pointer to structure
 1. Holes in memory allocation & solution
 
-
+### File Operations
+- Data Organization
+- File Operations
+    - Opening a File
+    - Reading from a File
+    - Closing the File
+- File Opening Modes
+- String (line) I/O in Files
+- Record I/O in Files
+- Text Files and Binary Files
+- Low Level Disk I/O
+- I/O Under Windows
 
 
 ## Running code:
