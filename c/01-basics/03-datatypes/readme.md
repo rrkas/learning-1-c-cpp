@@ -85,7 +85,8 @@ The rules are as under:
 - Use `register` storage class for only those variables that are being used very often in a program.  
 Reason is, there are very few CPU registers at our disposal and many of them might be busy doing something else.  
 Make careful utilization of the scarce resources.   
-A typical application of register storage class is loop counters, which get used a number of times in a program.
+A typical application of register storage class is loop counters, which get used a number of times in a program.  
+It doesn't have an address.
 
 - Use `extern` storage class for only those variables that are being used by almost all the functions in the program.  
 This would avoid unnecessary passing of these variables as arguments when making a function call.  
