@@ -1,5 +1,8 @@
 # C++
 
+- This is in continuation with C notes.
+- This contains things different from C.
+
 ## Chapters
 ### Basics
 1. first program
